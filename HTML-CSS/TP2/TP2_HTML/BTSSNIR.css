@@ -1,0 +1,13 @@
+.texterouge{
+    color: red;
+    font-size: 100px;
+}
+
+.image {
+    width:50%;
+    height: 50%;
+    margin-left: 25%;
+}
+.bgc{
+    background-color: green;
+}

@@ -1,0 +1,32 @@
+#Base de données Gaming - table joueur sur le serveur localhost
+#
+# Serveur: localhost
+# Base de données: `Gaming`
+# --------------------------------------------------------
+#
+# Structure de la table `joueur`
+#
+
+CREATE TABLE joueur (
+  Nom varchar(20) NOT NULL default '',
+  Age int(11) NOT NULL default '0',
+  Ville varchar(20) NOT NULL default '',
+  Score int(11) NOT NULL default '0',
+  id int(11) NOT NULL auto_increment,
+  passe varchar(50) NOT NULL default '',
+  PRIMARY KEY  (id)
+) ;
+
+#
+# Contenu de la table `joueur`
+#
+
+INSERT INTO joueur VALUES ('Alexandre', 19, 'Sainte Marie', 5, 1, '1714af0706');
+INSERT INTO joueur VALUES ('Thomas', 20, 'Saint Denis', 3, 2, '1dc74ccc78');
+INSERT INTO joueur VALUES ('Gauthier', 19, 'Trois Bassins', 56, 24, '6566e52777');
+INSERT INTO joueur VALUES ('Sergio', 18, 'Bois de Nefles', 7, 4, '000b0a8b30');
+INSERT INTO joueur VALUES ('Jonathan', 19, 'Trois Bassins', 6, 5, '1f27f01661');
+INSERT INTO joueur VALUES ('Mathieu', 18, 'Trois Bassins', 8, 6, '46cc55884a');
+INSERT INTO joueur VALUES ('David', 19, 'La Possession', 9, 8, '7140fcf028');
+INSERT INTO joueur VALUES ('Jean Maurice', 18, 'Etang Saint Leu', 3, 11, '6513f43906');
+INSERT INTO joueur VALUES ('Jonathan', 20, 'Saint Gilles', 56, 25, '647a32324c');
